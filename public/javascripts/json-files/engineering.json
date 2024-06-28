@@ -1,0 +1,40 @@
+[
+    {
+        "id": 17,
+        "name":" Analysis os Algorithm",
+        "author": "Mahesh Goyani",
+        "publication_year": 2023,
+        "image": "../../images/books-images/engineering/book-1.jpg",
+        "description": " Analysis of Algorithms by Techknowledge offers a comprehensive exploration of algorithmic principles, emphasizing their application in problem-solving and optimization. Through clear explanations and examples, the book delves into algorithm design techniques, complexity analysis, and algorithmic paradigms, equipping readers with valuable insights for tackling real-world computational challenges.",
+        "url": "https://drive.usercontent.google.com/download?id=1trZkHS_7fpKVRRAgqv8V5VDY7FGHKqj1&export=download&authuser=2&confirm=t&uuid=4329d663-ec86-4659-91cd-a50cd27aca95&at=APZUnTVxqpV_FoAB71NlgNrLp3wH:1712695669177"
+    
+    },
+    {
+        "id": 18,
+        "name":" Database Management System",
+        "author":"Mahesh mali",
+        "publication_year":2023,
+        "image": "../../images/books-images/engineering/book-2.jpg",
+        "description": "Database Management System by Techknowledge provides a concise yet comprehensive overview of database fundamentals, including database design, implementation, and management. This book offers practical insights and techniques for effective database administration, making it an essential resource for students and professionals alike in mastering the complexities of database systems.",
+        "url": "https://drive.usercontent.google.com/download?id=1CIXVuU6ls0GXX7gskEjcj0zS_009QLvG&export=download&authuser=2&confirm=t&uuid=87561a9a-d0cd-4662-b9a5-dc5858b53084&at=APZUnTVzo7lctjl3GtpzgJ1oiPPQ:1712695712067"
+    },
+    {
+        "id": 19,
+        "name":" Operating System",
+        "author":" Manoj Kavedia",
+        "publication_year": 2023,
+        "image": "../../images/books-images/engineering/book-3.jpg",
+        "description":"Operating System by TechNeo provides a concise yet comprehensive overview of fundamental concepts in operating systems. Covering topics such as process management, memory management, file systems, and more, this book offers clear explanations and practical examples, making it an essential resource for students and professionals in the field of computer science.",
+        "url": "https://drive.usercontent.google.com/download?id=1amgqGWsCOmPd_wORk7A22u8UFt1hpOSK&export=download&authuser=0&confirm=t&uuid=3c7b054b-1ca4-404f-bb42-f197b3651645&at=APZUnTWcDyWbhIIW93n0p2KDg-wp:1712695844190" 
+    },
+    {
+        "id": 20,
+        "name":" Eng. Mathematics-IV",
+        "author":"G.V.Kumbhojkar",
+        "publication_year": 2023,
+        "image": "../../images/books-images/engineering/book-4.jpg",
+        "description": "Engineering Mathematics IV is a comprehensive textbook that covers advanced mathematical concepts essential for engineering students. It delves into topics such as differential equations, vector calculus, complex analysis, and numerical methods, providing a solid foundation for engineering problem-solving. With clear explanations and practical examples, it equips students with the mathematical skills necessary for tackling complex engineering challenges.",
+        "url": "https://drive.usercontent.google.com/download?id=1oVnb3k2qjOWh1pg5c45e8qoJtyMdtc-W&export=download&authuser=2&confirm=t&uuid=252a32ed-3639-4a61-9fd7-71d2bd5f0d35&at=APZUnTXHqmdTytQvFFiRx2-7A9G8:1712695576180"
+    
+    }
+]

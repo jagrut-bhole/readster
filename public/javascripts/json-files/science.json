@@ -1,0 +1,38 @@
+[
+    {
+        "id": 58,
+        "name":"Anthem",
+        "author":"Ayn Rand",
+        "image": "../../images/books-images/science/book-1.jpg",
+        "publication_year": 1909,
+        "description": "Anthem: A dystopian novella depicting a society where individuality is suppressed, and one man's quest for freedom and self-discovery.",
+        "url": "https://drive.usercontent.google.com/download?id=1zSXaz0dD0imYA-GDrlpMs3LG01GK7enu&export=download&authuser=1&confirm=t&uuid=0c1904c1-8245-4593-a835-f95a4a17e97e&at=APZUnTX-S6bTWaBjP5rKY4QmS0-M:1714742825854"
+        },
+    {
+        "id": 59,
+        "name":"A Journey to the Centre of the Earth",
+        "image": "../../images/books-images/science/book-2.jpg",
+        "author":"Jules Verne ",
+        "publication_year":"1848",
+        "description": "A Journey to the Centre of the Earth: A thrilling adventure following explorers as they delve into the depths of the Earth's core, encountering wonders and dangers along the way.",
+        "url": "https://drive.usercontent.google.com/download?id=1ZctFY19rs8oeyUoAzVsI59SFoWYA5N5b&export=download&authuser=1&confirm=t&uuid=4065f06d-208f-431d-91d3-f2598ccd7634&at=APZUnTU-VMLVO14HNNkjGHBxggrY:1714742813652"
+    },
+    {
+        "id": 60,
+        "name":" A Princess of Mars",
+        "image": "../../images/books-images/science/book-3.jpg",
+        "author":"Edgar Rice Burroughs",
+        "publication_year" : 1986,
+        "description": "A Princess of Mars: An epic tale of interplanetary romance and adventure as a Confederate soldier finds himself on Mars, where he becomes embroiled in the conflicts of its exotic inhabitants.",
+        "url": "https://drive.usercontent.google.com/download?id=1yA3lvrDc5OdqCvrQftt9YcG3jDe7QNB6&export=download&authuser=1&confirm=t&uuid=f5877360-78fe-4a6c-88b3-91b4e3b5dfad&at=APZUnTVy6LSkSUQuCmvBCx5KQiiu:1714742823987"
+    },
+    {
+        "id": 61,
+        "name":"The Machine Stops",
+        "image": "../../images/books-images/science/book-4.jpg",
+        "author":" E. M. Forster",
+        "publication_year": 1877,
+        "description": "The Machine Stops: A chilling science fiction story exploring the consequences of overreliance on technology, set in a future where humanity lives underground and depends entirely on a vast, malfunctioning machine for survival.",
+        "url": "https://drive.usercontent.google.com/download?id=1YQqvxYWUPZMp1wZEod4voJHgZ1QLrAqU&export=download&authuser=1&confirm=t&uuid=874e52fd-4dfc-486c-b437-2680df0612e5&at=APZUnTWBi_r7JCPmz7FJey_BI2Jm:1714742828040"
+    }
+]

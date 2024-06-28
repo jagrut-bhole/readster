@@ -1,0 +1,42 @@
+[
+    {
+        "id": 21,
+        "name":" The Demon Girl",
+        "author": " Penelope",
+        "publication_year": 1905,
+        "image": "../../images/books-images/fantasy/photo-1.jpg",
+        "description": " A drama of love and money.",
+        "url": "https://drive.usercontent.google.com/download?id=15TdcKzNPI11GKQDqqA6vJDS_t-iPWFE9&export=download&authuser=2&confirm=t&uuid=1d032b28-f720-4ea3-9136-958646ae21b6&at=APZUnTUIUhG3KqWjKKabxJOLp6v0:1712696208973"
+    
+    },
+    {
+        "id": 22,
+        "name":" Ayesha",
+        "author":"H.Rider Haggard",
+        "publication_year": 1912,
+        "image": "../../images/books-images/fantasy/photo-2.jpg",
+        "description":"In this book a number of dialects are used, to wit: the Missouri negro dialect; the extremest form of the backwoods Southwestern dialect; the ordinary Pike County dialect; and four modified varieties of this last.",
+        "url": "https://drive.usercontent.google.com/download?id=13EyH39bW1XYQLqHlQI7FXDeCX96FIwjF&export=download&authuser=2&confirm=t&uuid=9a45b74f-4367-4626-af57-f71db00132ba&at=APZUnTUJEzbWLiAWXOmuasbgQZsp:1712696219166"
+        
+    },
+    {
+        "id": 23,
+        "name":" Clarimonde",
+        "author":"The Opile Gauiter",
+        "publication_year": 1866,
+        "image": "../../images/books-images/fantasy/photo-3.jpg",
+        "description": "From the Russian master of psychological characterizations, this novel portrays the carefully planned murder of a miserly, aged pawnbroker by a destitute Saint Petersburg student named Raskolnikov, followed by the emotional, mental, and physical effects of that action. Translated by Constance Garnett.",
+        "url": "https://drive.usercontent.google.com/download?id=1yGhSdj-IbjcdS5OSWcuJiw2GhC5y-AsC&export=download&authuser=2&confirm=t&uuid=19693fc2-4302-4635-ba52-e021e4d52cdb&at=APZUnTWdGg0CZP5U0vZBnVKenk4S:1712696214943"
+    
+    },
+    {
+        "id": 24,
+        "name":" The Arabian Nights",
+        "author":"Dr. Jonathan Scott",
+        "publication_year": 1917,
+        "image": "../../images/books-images/fantasy/photo-4.jpg",
+        "description": "The mystery of a secret room, scene of many murders, is unraveled by Carlos Paredes, the Panamanian Sherlock Holmes.",
+        "url": "https://drive.usercontent.google.com/download?id=1Bk-SZPRK-6Crbn9FYWkgbkLJYTZx6ba0&export=download&authuser=2&confirm=t&uuid=757ffb02-bedd-4767-a5e0-5fef526689dd&at=APZUnTUW7MYJiwXTuq9EYmaXCh5i:1712696212726"
+    
+    }
+]

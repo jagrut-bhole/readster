@@ -1,0 +1,49 @@
+[
+    {
+        "id": 29,
+        "name":" Emma ",
+        "author":"Jane Austen",
+        "image": "../../images/books-images/literacy/book-1.jpg",
+        "publication_year": 1949,
+        "description": "Jane Austen's 'Emma' is a timeless tale of love, meddling, and self-discovery in Regency-era England.",
+        "url": "https://drive.usercontent.google.com/download?id=1cLYs8NQvtpYbaMe9NjZZ_08YEFGm2A2I&export=download&authuser=2&confirm=t&uuid=914bbcc1-6f7c-4cbf-9e8f-e3ef00b41c52&at=APZUnTUzZTMBAoF3F6lmpBXc8957:1712696474179"
+        },
+    {
+        "id": 30,
+        "name":"20000-Leagues-Under-the-Sea",
+        "image": "../../images/books-images/literacy/book-2.jpg",
+        "author":"Jules Verne",
+        "publication_year":"N/A",
+        "description": "Jules Verne's '20,000 Leagues Under the Sea' takes readers on an unforgettable underwater adventure aboard the enigmatic submarine, the Nautilus.",
+        "url": "https://drive.usercontent.google.com/download?id=18tWK-NniXyJwzbUGNIsRcroKKtcbaS13&export=download&authuser=2&confirm=t&uuid=ae48147a-4d85-4538-a3de-bd609d8420c0&at=APZUnTVc0B4JRtMC4XWpnfET0n7C:1712696469220"
+    },
+    {
+        "id": 31,
+        "name":" Le-Morte-D'Arthur-vol-1",
+        "image": "../../images/books-images/literacy/book-3.jpg",
+        "author":" Thomas Malory",
+        "publication_year" : 1886,
+        "description": "Volume 1 of 'Le Morte d'Arthur' presents the legendary tales of King Arthur and the Knights of the Round Table, steeped in chivalry, romance, and medieval intrigue.",
+        "url": "https://drive.usercontent.google.com/download?id=1CDbqeuktEez6DJbBCmDwdvPwlFixICtT&export=download&authuser=2&confirm=t&uuid=17a45fef-5d83-4e2e-af98-1d6a6bc1c894&at=APZUnTVcoYP6UTt40p8RfZ16k5F5:1712696479782"
+    },
+    {
+        "id": 32,
+        "name":"Persuasion",
+        "author":"jane austen",
+        "publication_year": 2018,
+        "image": "../../images/books-images/literacy/book-5.jpg",
+        "description": "Jane Austen's 'Persuasion' navigates the complexities of love, regret, and second chances as Anne Elliot confronts past decisions and rekindles a romance with the man she once rejected",
+        "url": "https://drive.usercontent.google.com/download?id=1cSqMfwyFr7VG1E_Mwi6BDTYextBPsdnN&export=download&authuser=2&confirm=t&uuid=82e1f87d-f459-4af6-b2b2-99f36eea04b1&at=APZUnTV2y2ZTUDr0bl1Jvww4kfCT:1712696482309"
+    },
+    {
+        "id": 33,
+        "name":"The-$30000-Bequest",
+        "author":"Mark Twain",
+        "publication_year" : 1777,
+        "image": "../../images/books-images/literacy/book-6.jpg",
+        "description": "The $30,000 Bequest by Mark Twain is a satirical short story that humorously critiques societal values and the pursuit of wealth. Twain's wit shines as he explores themes of greed, ambition, and the consequences of sudden fortune. Through clever storytelling and ironic twists, he delivers a timeless commentary on human nature and the pursuit of material wealth.",
+        "url": "https://drive.usercontent.google.com/download?id=1lgfZwWuHVHIOkxIwqtlLv3HLLqsGZ56Y&export=download&authuser=2&confirm=t&uuid=1cfebd40-9a14-417e-982f-0140ec8fdc9f&at=APZUnTUSXTU3XWvzfAQtuA9aZoDE:1712696486568"
+    
+    }
+    
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "id": 47,
+        "name":" Beauty and the Beast",
+        "image": "../../images/books-images/romance/book-2.jpg",
+        "author":"Anonymous",
+        "publication_year":"N/A",
+        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric.",
+        "url": "https://drive.usercontent.google.com/download?id=1c6tiCeAy8zbUD5PWy4-eubvKRUOTOZQL&export=download&authuser=0&confirm=t&uuid=0e099044-2515-4309-b532-a2c30da8e906&at=APZUnTVG7GM6uK65v5Ae_73NqEQH:1712736728888"
+    },
+    {
+        "id": 48,
+        "name":" Cleopatra",
+        "image": "../../images/books-images/romance/book-3.jpg",
+        "author":" H. Rider Haggard",
+        "publication_year" : 1886,
+        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric.",
+        "url": "https://drive.usercontent.google.com/download?id=16CnG_QzuWur-5T8hoQA7Y6i-TkbJngwB&export=download&authuser=0&confirm=t&uuid=6199f002-7dd5-4f30-bb9a-47f6e29394af&at=APZUnTV_bYh3fBB5uyBjiu0CI4cA:1712736733210"
+    },
+    {
+        "id": 49,
+        "name":" SHE",
+        "image": "../../images/books-images/romance/book-4.jpg",
+        "author":" H. Rider Haggard",
+        "publication_year": 1887,
+        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric.",
+        "url": "https://manybooks.net/books/get/123876/6"
+    },
+    {
+        "id": 50,
+        "name":" Stuck with the Billionaire",
+        "image": "../../images/books-images/romance/book-5.jpeg",
+        "author":" Noble Stone",
+        "publication_year":"N/A",
+        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric.",
+        "url": "https://manybooks.net/books/get/394146/6"
+    },
+    {
+        "id": 55,
+        "name":" He Fell In Love with His Wife",
+        "author":"Edward Payson Roe",
+        "publication_year":1886,
+        "image": "../../images/books-images/romance/book-10.jpg",
+        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric.",
+        "url": "https://manybooks.net/books/get/126571/6"
+    
+    }
+]

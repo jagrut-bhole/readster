@@ -1,0 +1,38 @@
+[
+    {
+        "id": 13,
+        "name":" Books For Children",
+        "author":"Charles & Mary Lamb",
+        "image": "../../images/books-images/children/book-1.jpg",
+        "publication_year": 1809,
+        "description": "It is a pioneering collection of classic literature adapted specifically for young readers. The anthology includes retellings of beloved tales from Shakespeare, Aesop, and other renowned authors, serving as an early example of children's literature designed to entertain and educate simultaneously.",
+        "url": "https://drive.usercontent.google.com/download?id=1AzLDKkqpdjBEnRYNkhSvzFkn4JgJySMK&export=download&authuser=1&confirm=t&uuid=80241523-dc83-4695-a673-761cab3c2574&at=APZUnTWEB1KoLBgoyYJQGMNyiUhJ:1714743175471"
+        },
+    {
+        "id": 14,
+        "name":" Christmas Stories",
+        "image": "../../images/books-images/children/book-2.jpg",
+        "author":"Anonymous",
+        "publication_year":"N/A",
+        "description": "It features a delightful collection of traditional and original Christmas tales aimed at young readers. Filled with festive spirit, these stories capture the magic and joy of the holiday season, making it a cherished read for generations.",
+        "url": "https://drive.usercontent.google.com/download?id=1KsY_CYk2A2b3l00_ogijk7lVa5UYNJA1&export=download&authuser=1&confirm=t&uuid=d6c1a07b-b8f9-42cb-b559-77f0d248e047&at=APZUnTXPydmYkA9vodWJRjasmfou:1714743179525"
+    },
+    {
+        "id": 15,
+        "name":" The Education of Children",
+        "image": "../../images/books-images/children/book-3.jpg",
+        "author":" Desiderius Erasmus ",
+        "publication_year" : 1529,
+        "description": "The Education of Children is a seminal work by Desiderius Erasmus, a Dutch philosopher and theologian of the Renaissance.It offers insights into the humanist approach to education, emphasizing the importance of moral and intellectual development in children.",
+        "url": "https://drive.usercontent.google.com/download?id=1TOLE8WEftWGAX858ghH1u2JQHSwkPgE6&export=download&authuser=1&confirm=t&uuid=c3a4f783-4cb7-4be0-ac33-e0c7500fde15&at=APZUnTU2BGZCdoU5jcg_KAHX-wfY:1714743181391"
+    },
+    {
+        "id": 16,
+        "name":" Cautionary Tales",
+        "image": "../../images/books-images/children/book-4.jpg",
+        "author":" Hilaire Belloc",
+        "publication_year": 1907,
+        "description": "It is a collection of humorous and moralistic poems that warn children about the consequences of misbehavior. Through witty rhymes and dark humor, Belloc delivers timeless lessons on the perils of disobedience and folly.",
+        "url": "https://drive.usercontent.google.com/download?id=1PRwUlrLVqnS1QlwCrI7-3ER0SIXzh9KF&export=download&authuser=1&confirm=t&uuid=bc5d6afe-6254-46f0-b7d1-97a3a6f77c3b&at=APZUnTUP6l3D9jiCc6PArBB6Z7Ts:1714743177353"
+    }
+]

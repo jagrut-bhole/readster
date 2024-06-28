@@ -1,0 +1,38 @@
+[
+    {
+        "id": 62,
+        "name":" Chubby & Charming",
+        "author":"Mary E Thompson",
+        "image": "../../images/books-images/young/book-1.jpg",
+        "publication_year": 2020,
+        "description": " It is a contemporary romance novel that follows the journey of two protagonists, exploring themes of self-acceptance, love, and personal growth. First published in 2020, it offers a heartwarming narrative that challenges societal norms and celebrates individuality and inner beauty.",
+        "url": "https://drive.usercontent.google.com/download?id=1jhSH0wNYmVUbUIete9qBUMFD2JDDtkzH&export=download&authuser=1&confirm=t&uuid=3fe5fd9b-e0b2-4e60-a510-8302055dfd16&at=APZUnTXkE4VrgbzhE8Cz3OrRu1BT:1714742583138"
+        },
+    {
+        "id": 63,
+        "name":" The Sicilians Betrayal",
+        "image": "../../images/books-images/young/book-2.jpg",
+        "author":"Cindy Redding",
+        "publication_year":2019,
+        "description": " It is a gripping romantic suspense novel that unravels a tale of love, betrayal, and redemption against the backdrop of Sicily's picturesque landscapes. Published in 2019, it immerses readers in a thrilling narrative filled with passion, intrigue, and unexpected twists that keep them on the edge of their seats.",
+        "url": "https://drive.usercontent.google.com/download?id=1fsWZ3sQQ-VEPmGRAskkI6mKCVV2AOFx4&export=download&authuser=1&confirm=t&uuid=90c4fd79-5e95-4541-b1f4-f5699c7fd5fd&at=APZUnTWzSYp1KFTBx44OeZjRWNYa:1714742589296"
+    },
+    {
+        "id": 64,
+        "name":" Grave Cargo",
+        "image": "../../images/books-images/young/book-3.jpg",
+        "author":" Jami Gray",
+        "publication_year" : 2021,
+        "description": "Grave Cargo by Jami Gray is a captivating mystery novel that delves into the dark secrets buried within a small town's history. As tensions rise and past sins resurface, a determined protagonist races against time to uncover the truth before it's too late. With its atmospheric setting and suspenseful plot",
+        "url": "https://drive.usercontent.google.com/download?id=1ONvcWDFkXBV2IXI09yu6UwWSSpNAnFHN&export=download&authuser=1&confirm=t&uuid=ac81992b-8d38-4a39-be0c-325f68e7da55&at=APZUnTW3qgAeFbNDSAoRLdc0-cJu:1714742586733"
+    },
+    {
+        "id": 65,
+        "name":" A Convenient Risk",
+        "image": "../../images/books-images/young/book-4.jpg",
+        "author":" Sara R. Turnquist",
+        "publication_year": 2020,
+        "description": "A Convenient Risk by Sara R. Turnquist is a compelling historical romance novel set in a time of political intrigue and societal expectations. As the protagonists navigate the complexities of their relationship amid turbulent times, they must decide whether to embrace love despite the risks involved. With its rich historical detail and captivating characters.",
+        "url": "https://drive.usercontent.google.com/download?id=1qJH8HfOel34fEE1EYVs_QDogVxmKPNLd&export=download&authuser=1&confirm=t&uuid=c887a14e-013f-44eb-a6fa-f9696a9d08fc&at=APZUnTVoa3YQOMVCqu-jHpufPLGS:1714742559853"
+    }
+]
