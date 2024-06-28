@@ -18,5 +18,8 @@
     "morgan": "~1.9.1",
     "passport": "^0.7.0",
     "passport-local-mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9"
   }
 }
