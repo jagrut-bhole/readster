@@ -8,7 +8,7 @@ mongoose.connect("mongodb+srv://jagrutbhole103:Jagrut2004@cluster0.dt0jxkf.mongo
 const userSchema = new mongoose.Schema({
   username: String,
   password: String,
-  Email: String,
+  email: String,
 });
 
 userSchema.plugin(plm);
