@@ -1,0 +1,39 @@
+[
+    {
+        "id": 42,
+        "name":" The Grammer of English Grammers ",
+        "author":"Goold Brown",
+        "image": "../../images/books-images/nonfiction/book-1.jpg",
+        "publication_year": 1949,
+        "description": "The Grammar of English Grammars: A comprehensive guide to the intricacies and nuances of English language structure",
+        "url": "https://drive.usercontent.google.com/download?id=1cbQUz0yh6gnNHy_hYDF6W4Soeo0JrEv7&export=download&authuser=0&confirm=t&uuid=d5f9433e-8594-420e-8400-a5fd0e50712f&at=APZUnTVBZiyie67dROWEocFYUaUL:1712736527555"
+        },
+    {
+        "id": 43,
+        "name":"The Communist Manifesto",
+        "image": "../../images/books-images/nonfiction/book-2.jpg",
+        "author":"  Karl MarxFrederick Engel",
+        "publication_year":"N/A",
+        "description": "The Communist Manifesto: A seminal political treatise advocating for the overthrow of capitalist systems and the establishment of a classless society.",
+        "url": "https://drive.usercontent.google.com/download?id=1XFbnluvBzNiY3nuQCdVQeWVlj7v1Co19&export=download&authuser=0&confirm=t&uuid=aa467a20-d333-48ad-9404-4d8453fa9e63&at=APZUnTWUsV42FHwqDmSTQUVHAcFG:1712736499161"
+    },
+    {
+        "id": 44,
+        "name":"The Age of Reason ",
+        "image": "../../images/books-images/nonfiction/book-3.jpg",
+        "author":" D. J. Medley",
+        "publication_year" : 1886,
+        "description": "The Age of Reason: A provocative exploration of religious skepticism and Enlightenment ideals by philosopher and revolutionary thinker Thomas Paine.",
+        "url": "https://drive.usercontent.google.com/download?id=1lyJRgOMECNh9rpRb9NbS103NhE3WBWXB&export=download&authuser=0&confirm=t&uuid=219bafe0-a562-4008-9dd6-e73641db7a55&at=APZUnTXAcjFzn1r7aM-t8yQ_A8GB:1712736497794"
+    },
+    {
+        "id": 45,
+        "name":"How to Use Your Mind",
+        "image": "../../images/books-images/nonfiction/book-4.jpg",
+        "author":"Harry Dexter Kitson",
+        "publication_year": 1887,
+        "description": "How to Use Your Mind: A practical guide to harnessing the power of your mind for personal growth and achievement.",
+        "url": "https://drive.usercontent.google.com/download?id=1etWb8FnsJZWGhAppVEaL-WibhfkBTNYt&export=download&authuser=0&confirm=t&uuid=d1b7bd66-0b4b-45e6-a89c-fb52d743dcc8&at=APZUnTUFziK7SUwiEHN2CuvzTnj7:1712736495752"
+    }
+    
+]

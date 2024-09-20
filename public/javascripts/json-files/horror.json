@@ -1,0 +1,38 @@
+[
+    {
+        "id": 25,
+        "name":" Dracula",
+        "author":"Bram Stoker",
+        "image": "../../images/books-images/horror/book-1.jpg",
+        "publication_year": 1949,
+        "description": "he world's best-known vampire story begins by following a naive young Englishman as he visits Transylvania to meet a client, the mysterious Count Dracula. Upon revealing his true nature, Dracula boards a ship for England, where chilling and gruesome disasters begin to befall the people of London,",
+        "url": "https://drive.usercontent.google.com/download?id=1MrSciNvq2ihEWfsSX4qGQ6mHunZ5qxVw&export=download&authuser=0&confirm=t&uuid=fe453ef5-ec2f-4c73-b52d-7c8504589d23&at=APZUnTVlMVCdDhqZEMpav0qnAKsj:17127350615996"
+        },
+    {
+        "id": 26,
+        "name":"The Invisible Man",
+        "image": "../../images/books-images/horror/book-2.jpg",
+        "author":"H.G.Wells",
+        "publication_year": 1897,
+        "description": "The Invisible Man of the title is ''Griffin'', a scientist who theorizes that if a person's refractive index is changed to exactly that of air and his body does not absorb or reflect light, then he will not be visible. He successfully carries out this procedure on himself, but begins to become mentally unstable as a result.",
+        "url": "https://drive.usercontent.google.com/download?id=1SsCxxHQLsZs5hiaaRbrOgsz_9nxAlggI&export=download&authuser=0&confirm=t&uuid=38d7fc12-1569-4ea5-a1b5-3547107b0c69&at=APZUnTWgukz8mCTldgvdca-8w18H:1712735063805"
+    },
+    {
+        "id": 27,
+        "name":" Collected Works of Poe Vol-1",
+        "image": "../../images/books-images/horror/book-3.jpg",
+        "author":"Edgar Allan Poe",
+        "publication_year" : 1886,
+        "description": "Collected Works of Poe by Edgar Allan Poe is a comprehensive anthology encompassing his iconic tales of horror, mystery, and macabre poetry. Poe's haunting narratives delve into the depths of the human psyche, exploring themes of madness, death, and the supernatural with unparalleled mastery. With its chilling atmosphere and intricate plots, this collection remains a cornerstone of Gothic literature, captivating readers with its enduring legacy of darkness and suspense.",
+        "url": "https://drive.usercontent.google.com/download?id=1ItY90zk0zag88Uu5tSnCwVSsyDtGGPiH&export=download&authuser=0&confirm=t&uuid=bc0d024d-4ca4-4855-9eb5-ca246873a382&at=APZUnTXstIq4xY2QpquWxile4xYk:17127350587186"
+    },
+    {
+        "id": 28,
+        "name":" The Woman in White",
+        "image": "../../images/books-images/horror/book-4.jpg",
+        "author":"Wilkie Collins",
+        "publication_year": 1997,
+        "description": "The Woman in White is widely regarded as the first in the genre of 'sensation novels'. It follows the story of two sisters living in Victorian England with their selfish, uninterested uncle as their guardian. Marian Halcombe is the elder of the two sisters, and a remarkably ugly woman, but with courage, strength and resourcefulness in abundance. The younger, her beautiful half-sister Laura Fairlie, is engaged to a rich man by the name of Sir Percival Glyde.",
+        "url": "https://drive.usercontent.google.com/download?id=11CGDNdM3e6ogWTLso1Sd5r6B_uDN2UBf&export=download&authuser=0&confirm=t&uuid=ba658bbc-15b7-49ff-95bd-5be9d534f183&at=APZUnTUj7oAEMRbrvKrPVx49k7dL:1712735070632"
+    }    
+]

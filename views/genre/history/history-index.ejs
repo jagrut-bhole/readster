@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= genreName.charAt(0).toUpperCase() + genreName.slice(1) %> Genre</title>
+    <link
+    rel="shortcut icon"
+    href="/images/home/photo-1452421822248-d4c2b47f0c81.jpeg"
+    type="image/x-icon"
+  />
+    <link rel="stylesheet" href="/stylesheets/genre.css">
+    <link rel="stylesheet" href="/stylesheets/dropdown.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Unicons CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <script src="/javascripts/genre.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="name">
+          <h3>Bill Splitter</h3>
+        </div>
+        <div class="hero">
+          <img
+            class="user-pic"
+            src="../images/Make Up.jpg"
+            alt="User Pic"
+            onclick="toggleMenu()"
+          />
+  
+          <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+              <div class="user-info">
+                <img src="../images/Make Up.jpg" />
+                <h3><%= user.name %></h3>
+              </div>
+              <hr />
+              <a href="/profile" class="sub-menu-link">
+                <img src="../images/drop-down/profile.png" />
+                <p>Edit Profile</p>
+                <span> > </span>
+              </a>
+              <a href="/setting" class="sub-menu-link">
+                <img src="../images/drop-down/setting.png" />
+                <p>Settings</p>
+                <span> > </span>
+              </a>
+              <a href="/contact-us" class="sub-menu-link">
+                <img src="../images/drop-down/help.png" />
+                <p>Needed Any Help ?</p>
+                <span> > </span>
+              </a>
+              <a href="/logout" class="sub-menu-link">
+                <img src="../images/drop-down/logout.png" />
+                <p>Log Out</p>
+                <span> > </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <div class="container">
+        <div class="titled">Search Results Books of HISTORICAL-FICTION Genre</div>
+        <div class="listProduct">
+
+        </div>
+    </div>
+
+    
+
+    <script>
+        let products = null;
+        // get datas from file json
+        fetch('/javascripts/json-files/history.json')
+            .then(response => response.json())
+            .then(data => {
+                products = data;
+                addDataToHTML();
+        })
+
+        function addDataToHTML(){
+    // remove datas default from HTML
+        let listProductHTML = document.querySelector('.listProduct');
+
+        // add new datas
+        if(products != null) // if has data
+        {
+            products.forEach(product => {
+                let newProduct = document.createElement('a');
+                newProduct.href = '/history-detail?id=' + product.id;
+                newProduct.classList.add('item');
+                newProduct.innerHTML = 
+                `<img src="${product.image}" alt="Books Images">
+                <h2>${product.name}</h2>
+                <p class="author-para">- By ${product.author}</p>`
+                listProductHTML.appendChild(newProduct);
+
+            });
+        }
+    }
+
+    </script>
+    <script src="/javascripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1"
+    />
+    <link
+      rel="shortcut icon"
+      href="/images/home/photo-1452421822248-d4c2b47f0c81.jpeg"
+      type="image/x-icon"
+    />
+    <meta
+      name="description"
+      content="Explore a vast collection of books online. Choose from various categories and dive into the world of literature."
+    />
+    <title>Readster - Discover your book</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/stylesheets/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body>
+    <div class="landing-page">
+      <video autoplay loop muted plays-inline class="background-video">
+        <source
+          src="images/home/Books Shelves Library Reading by Continuous  4K.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="navbar">
+        <img
+          class="logo"
+          src="/images/home/photo-1452421822248-d4c2b47f0c81.jpeg"
+          alt="Logo"
+        />
+        <h2 class="heading">Readster</h2>
+        <ul>
+          <li>
+            <% if (user) { %>
+            <a href="/">HOME</a>
+            <a href="/profile">PROFILE</a>
+            <a href="/logout">LOGOUT</a>
+            <% } else { %>
+            <a href="/login">LOGIN</a>
+            <a href="/signup">SIGN-UP</a>
+            <% } %>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1>Book Haven</h1>
+        <p>
+          Embark on a Literary Adventure - Choose Your Category and Dive into
+          the World of Books!
+        </p>
+        <a href="/genre">Explore Now</a>
+      </div>
+    </div>
+    <div class="remaining-1">
+      <div class="text">
+        <h1>Unleash Your Imagination</h1>
+        <p class="para-1">
+          Welcome to Readster, the ultimate destination for book lovers seeking
+          thrilling adventures, mysterious plots, and fantastical realms.
+        </p>
+        <br />
+        <p class="para-2">
+          Immerse yourself in a world where words come alive, characters leap
+          off the pages, and every turn brings a new surprise.
+        </p>
+        <br />
+        <p class="para-3">
+          Get ready to lose yourself in captivating stories that will transport
+          you to realms beyond your wildest dreams.
+        </p>
+      </div>
+    </div>
+    <div class="remaining-2">
+      <div class="welcome-text">
+        <h1>Discover Your Next Read</h1>
+        <p class="paragraph-1">
+          At Readster, we curate a collection of books across genres that will
+          ignite your passion for reading and keep you hooked till the last
+          page.
+        </p>
+        <br />
+        <p class="paragraph-2">
+          Explore our library filled with tales of bravery, intrigue, and magic
+          waiting to be devoured by eager minds.
+        </p>
+        <br />
+        <p class="paragraph-3">
+          Whether you crave heart-pounding adventures, mind-bending mysteries,
+          or enchanting fantasies, we have the perfect book for every mood.
+        </p>
+      </div>
+      <div class="img-1">
+        <img src="/images/home/designer-photo.png" alt="Readster Book images" />
+      </div>
+    </div>
+
+    <div class="remanining-3">
+      <div class="img-3">
+        <img src="/images/home/remain-2.jpeg" alt="Readster Book Images" />
+      </div>
+      <div class="text-3">
+        <p class="para-3-1">
+          Dive into a world of endless stories and knowledge at our Online
+          Library! Choose your book category and embark on a reading adventure.
+        </p>
+        <p class="para-3-3">
+          Immerse yourself in captivating narratives that will leave you
+          spellbound. With our user-friendly interface and convenient access
+          from anywhere, your journey through the pages of imagination awaits.
+        </p>
+        <p class="para-3-2">
+          Interact with fellow bookworms in lively discussions and book clubs.
+        </p>
+      </div>
+    </div>
+
+    <div class="services">
+      <div class="item-wrapper">
+        <div class="card-box" id="card-box1">
+          <h5>
+            <strong>10+</strong>
+          </h5>
+          <p>Genres Available</p>
+        </div>
+      </div>
+      <div class="item-wrapper">
+        <div class="card-box" id="card-box2">
+          <h5>
+            <strong>50+</strong>
+          </h5>
+          <p>Books to Choose From</p>
+        </div>
+      </div>
+      <div class="item-wrapper">
+        <div class="card-box" id="card-box3">
+          <h5>
+            <strong>24/7</strong>
+          </h5>
+          <p>Access Anytime, Anywhere</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="div-scrollgallery">
+      <div class="text-scroll">
+          <h2>
+              <strong>FROM THE BLOG</strong>
+          </h2>
+      </div>
+  </div> -->
+    <!-- <div class="scroll-wrapper">
+    <div class="scroll-container">
+      
+<div class="slider">
+  <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+  <div class="slider__inner">
+    <div class="slider__contents">
+      <img src="/images/blog-1.jpg" alt="Readster Images" class="slider__image">
+      <a href="#" class="slider__caption">Books Like When It's Real</a>
+        
+    </div>
+    <div class="slider__contents">
+      <img src="/images/blog-2.jpg" alt="Readster Images" class="slider__image">
+      <a href="#" class="slider__caption">Editorial Review: Red Screen by Daniel Burke</a>
+      
+    </div>
+    <div class="slider__contents">
+      <img src="/images/blog-3.jpg" alt="Readster Images" class="slider__image">
+      <a href="#" class="slider__caption">Books Like Fallout</a>
+      
+    </div>
+    <div class="slider__contents">
+      <img src="/images/blog-4.jpg" alt="Readster Images" class="slider__image">
+      <a href="#" class="slider__caption">Books of the Month March 2024</a>
+    </div>
+  </div>
+</div>
+    </div>
+  </div> -->
+
+    <div class="wrapper">
+      <h1>Curious Minds Ask</h1>
+
+      <div class="faq">
+        <button class="accordion">
+          How do I access books on Bookify?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Downloading is as easy as a click! Simply choose your genre and hit
+            download to embark on your journey!
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          How do I download the books?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Downloading is as easy as a click! Simply choose your genre and hit
+            download to embark on your journey!
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Are the books free to download?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Absolutely! All our books are available for free download, so you
+            can enjoy endless stories without spending a dime!
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Is there a limit on downloads per user?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            No limits here! Download to your heart's content and explore every
+            corner of our vast library without restrictions!
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Is Bookify accessible on all devices?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            "Bookify is exclusively designed for desktop use, providing an
+            immersive reading experience tailored for larger screens.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="community">
+      <div class="community-text">
+        <h2><strong>Join Our Bookish Community</strong></h2>
+      </div>
+      <div class="social-icons">
+        <a class="insta" href="https://www.instagram.com/readsterworld/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a class="face" href="https://www.facebook.com/"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a class="youtube" href="https://www.youtube.com/"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+        <a class="linked" href="https://www.linkedin.com/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+      <div class="footernav">
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footerbottom">
+        <p>
+          Copyright &copy;2024; Designed by
+          <span class="name"
+            >Jagrut <i class="fa-solid fa-face-smile-wink"></i
+          ></span>
+        </p>
+      </div>
+    </div>
+
+    <!-- FAQ Javascript -->
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var pannel = this.nextElementSibling;
+
+          if (pannel.style.display === "block") {
+            pannel.style.display = "none";
+          } else {
+            pannel.style.display = "block";
+          }
+        });
+      }
+    </script>
+    <script src="/javascripts/home-l.js"></script>
+  </body>
+</html>

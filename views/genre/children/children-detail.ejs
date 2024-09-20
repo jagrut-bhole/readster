@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= genreName.charAt(0).toUpperCase() + genreName.slice(1) %> Genre</title>
+    <link
+    rel="shortcut icon"
+    href="/images/home/photo-1452421822248-d4c2b47f0c81.jpeg"
+    type="image/x-icon"
+  />
+    <link rel="stylesheet" href="/stylesheets/genre.css">
+
+    <!-- External links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">BOOK DETAIL</div>
+        <div class="detail">
+            <div class="image">
+                <img src="">
+            </div>
+            <div class="content">
+                <h1 class="name"></h1>
+                <span class="author"></span>
+                <div class="description"></div>
+                <div class="pane__section">
+                    <dl>
+                        <dt>Pulished</dt>
+                        <dd class="publication_year"></dd>
+                        <!-- <dt>Edition</dt>
+                        <dd class="edition"></dd> -->
+                    </dl>
+                </div>
+
+                <button class="buttonDownload">Download</button>
+            </div>
+        </div>
+
+
+
+        <div class="title titles">Similar Books</div>
+        <div class="listProduct"></div>
+    </div>
+
+
+
+    <script>
+        let products = null;
+        // get datas from file json
+        fetch('/javascripts/json-files/children.json')
+            .then(response => response.json())
+            .then(data => {
+                products = data;
+                showDetail();
+            })
+
+        function showDetail() {
+            // remove datas default from HTML
+            let detail = document.querySelector('.detail');
+            let listProduct = document.querySelector('.listProduct');
+            let productId = new URLSearchParams(window.location.search).get('id');
+            let thisProduct = products.filter(value => value.id == productId)[0];
+            //if there is no product with id = productId => return to home page
+            // if (!thisProduct) {
+            //     window.location.href = "/action";
+            // }
+
+            detail.querySelector('.image img').src = thisProduct.image;
+            detail.querySelector('.name').innerText = thisProduct.name;
+            detail.querySelector('.author').innerText = thisProduct.author;
+            detail.querySelector('.publication_year').innerText = thisProduct.publication_year;
+            // detail.querySelector('.edition').innerText = thisProduct.edition;
+            // detail.querySelector('.price').innerText = '$' + thisProduct.price;
+            detail.querySelector('.description').innerText = thisProduct.description;
+
+
+            // Download button event listener
+            const downloadButton = document.querySelector('.buttonDownload');
+            downloadButton.addEventListener('click', function () {
+                // Replace 'book.pdf' with the actual name of your book file
+                const bookUrl = thisProduct.url;
+                const link = document.createElement('a');
+                link.href = bookUrl;
+                link.download = 'book.pdf'; // Set the name of the downloaded file
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            });
+
+
+            (products.filter(value => value.id != productId)).forEach(product => {
+                let newProduct = document.createElement('a');
+                newProduct.href = '/children-detail?id=' + product.id;
+                newProduct.classList.add('item');
+                newProduct.innerHTML =
+                    `<img src="${product.image}" alt="Books IMG">
+            <h2>${product.name}</h2>
+            <p class="author-para">- By ${product.author}</p>`
+                listProduct.appendChild(newProduct);
+            });
+        }
+    </script>
+</body>
+
+</html>

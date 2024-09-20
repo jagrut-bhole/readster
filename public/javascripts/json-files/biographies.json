@@ -1,0 +1,43 @@
+[
+    {
+        "id": 9,
+        "name":" Autobiography of Benjamin Franklin",
+        "author": "Benjamin Franklin",
+        "publication_year": 1916,
+        "image": "../../images/books-images/biographies/photo-1.jpg",
+        "description": "Franklin told the story of his life, as he himself says, for the benefit of his posterity. He wanted to help them by the relation of his own rise from obscurity and poverty to eminence and wealth. He is not unmindful of the importance of his public services and their recognition, yet his accounts of these achievements are given only as a part of the story, and the vanity displayed is incidental and in keeping with the honesty of the recital.",
+        "url": "https://drive.usercontent.google.com/download?id=1a8kV7QGeNcxhMhC3YfQg2Vu2cLXC3e1J&export=download&authuser=1&confirm=t&uuid=b62f52ed-a746-4733-99a6-440c78a29b20&at=APZUnTWjo7GtpeVJzuR_CCkaBaut:1714742262605"
+    
+    },
+    {
+        "id": 10,
+        "name":" Noli Me Tangere",
+        "author":"José Rizal",
+        "publication_year": 1887,
+        "image": "../../images/books-images/biographies/photo-2.jpg",
+        "description":"In this book a number of dialects are used, to wit: the Missouri negro dialect; the extremest form of the backwoods Southwestern dialect; the ordinary Pike County dialect; and four modified varieties of this last.",
+        "url": "https://drive.usercontent.google.com/download?id=1mQxryDGCjs5yyZBKUsbDvtyI5oj4VFqQ&export=download&authuser=1&confirm=t&uuid=b71cf05e-bfba-4a9c-a262-ea5736252870&at=APZUnTXBTjl4W1ecV7Th882SIS77:1714742269801"
+        
+    },
+    {
+        "id": 11,
+        "name":" The Count of Monte Cristo",
+        "author":"Alexandre Dumas",
+        "publication_year": 1845,
+        "image": "../../images/books-images/biographies/photo-3.jpg",
+        "description": "A classic adventure novel, often considered Dumas' best work, and frequently included on lists of the best novels of all time. Completed in 1844, and released as an 18-part series over the next two years, Dumas collaborated with other authors throughout. The story takes place in France, Italy, and the Mediterranean from the end of the rule of Napoleon I through the reign of Louis-Philippe.",
+        "url": "https://drive.usercontent.google.com/download?id=1TK4onP_Q7jtsexx2x3ZErpBugjYJeU4Q&export=download&authuser=1&confirm=t&uuid=41dcf81b-fee5-4a44-a20c-2358e87047a6&at=APZUnTWDIOEO_yypiXWcT6TDXrsN:1714742281426"
+    
+    },
+    {
+        "id": 12,
+        "name":" The Outline of History",
+        "author":"H. G. Wells",  
+        "publication_year": 1920,
+        "image": "../../images/books-images/biographies/photo-4.jpg",
+        "description": "The mystery of a secret room, scene of many murders, is unraveled by Carlos Paredes, the Panamanian Sherlock Holmes.",
+        "url": "https://drive.usercontent.google.com/download?id=1nJBpJP7Mx0T-EByBcxa2lowtGOkmBj8H&export=download&authuser=1&confirm=t&uuid=c87e7aa5-65fa-4331-8736-a3b47943e46b&at=APZUnTX3wzf4VZ2vB3yngOwgpqXb:1714742288823"
+    
+    }
+    
+]
