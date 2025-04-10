@@ -1,8 +1,9 @@
 var express = require("express");
-const passport = require("passport");
 var router = express.Router();
 
 const { requireAuth, checkUser } = require("../middleware/authmiddleware");
+
+const formController = require('../controllers/formController');
 
 router.get("*", checkUser);
 
@@ -81,5 +82,9 @@ router.get("/genre", function (req, res) {
 router.get("/profile", requireAuth, (req, res) => {
   res.render("profile");
 });
+
+// 
+
+router.post('/submit-form', formController.submitForm_post);
 
 module.exports = router;

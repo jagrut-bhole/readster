@@ -14,42 +14,42 @@
 <body>
     <div class="container">
         <div class="row">
-                <h1>Contact us</h1>
+            <h1>Contact us</h1>
         </div>
         <div class="row">
-                <h4 style="text-align:center">We'd love to hear from you!</h4>
+            <h4 style="text-align:center">We'd love to hear from you!</h4>
         </div>
-        <div class="row input-container">
+        
+        <!-- Add a form tag to wrap the inputs -->
+        <form id="contactForm" method="POST" action="/submit-form">
+            <div class="row input-container">
                 <div class="col-xs-12">
                     <div class="styled-input wide">
-                        <input type="text" required />
+                        <input type="text" name="name" required />
                         <label>Name</label> 
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="styled-input">
-                        <input type="text" required />
+                        <input type="text" name="username" required />
                         <label>Username</label> 
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="styled-input" style="float:right;">
-                        <input type="email" required />
+                        <input type="email" name="email" required />
                         <label>Email</label> 
                     </div>
                 </div>
                 <div class="col-xs-12">
                     <div class="styled-input wide">
-                        <textarea required></textarea>
+                        <textarea name="message" required></textarea>
                         <label>Message</label>
                     </div>
                 </div>
-                <!-- <div class="col-xs-12">
-                    <button class="submit-btn" style="float: right;">Send</button>
-                </div> -->
 
                 <div class="section">
-                    <button id="btn">
+                    <button type="submit" id="btn">
                       <p id="btnText">Submit</p>
                       <div class="checked">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
@@ -57,11 +57,12 @@
                         </svg>
                       </div>
                     </button>
-                  </div>
-        </div>
+                </div>
+            </div>
+        </form>
     </div>
 
     <script src="/javascripts/contactus.js"></script>
-    
+
 </body>
 </html>

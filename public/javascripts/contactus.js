@@ -1,18 +1,21 @@
-var btn = document.getElementById("btn");
-var btnText = document.getElementById("btnText");
-
-btn.onclick = function() {
-  btnText.innerHTML = "Thanks";
-  btn.classList.add("active");
-}
-
 document.addEventListener('DOMContentLoaded', function() {
-  const submitButton = document.getElementById('btn'); // Assuming the button has an id of 'btn'
+  const submitButton = document.getElementById('btn'); 
+  const form = document.getElementById('contactForm');  // Get the form element
 
-  submitButton.addEventListener('click', function() {
-      // Redirect to the home page after 3 seconds
-      setTimeout(function() {
-          window.location.href = '/home'; // Redirect to the home page
-      }, 2000); // 3000 milliseconds = 3 seconds
-  });
-});  
+  // When form is submitted, validate before proceeding
+  form.onsubmit = function(event) {
+      // Check if the form is valid (all required fields are filled)
+      if (!form.checkValidity()) {
+          event.preventDefault();  // Prevent form submission if not valid
+          alert('Please fill in all the required fields.');
+      } else {
+          submitButton.classList.add('active');
+          document.getElementById('btnText').innerHTML = 'Thanks';
+          
+          // Simulate submission delay
+          setTimeout(function() {
+              window.location.href = '/home'; // Redirect to home after submission
+          }, 2000);
+      }
+  };
+});
